@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+.main-palyer {
+  width: 90%;
+  max-width: 800px;
+  margin: 2em auto;
+  color: white;
+}
+html { 
+  background: url("poster.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h3 {
+  font-family: "Google Sans";
+}
+
+.yt-ctn {
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+.yt-ctn::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.yt-ctn iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
